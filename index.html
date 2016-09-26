@@ -1,72 +1,432 @@
 <!DOCTYPE html>
-<!--Alexander Pellas's Website - Soccer Gods-->
-<html>
-  <head>
-    <title>Soccer Gods</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-  </head>
-  <body>
-    <header>
-      <h1>Soccer Gods</h1>
-      <h4>Wiki Links</h4>
-      <nav>
-        <a href="https://en.wikipedia.org/wiki/Lionel_Messi">Lionel Messi</a>
-        <a href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo">Cristiano Ronaldo</a>
-        <a href="https://en.wikipedia.org/wiki/Manuel_Neuer">Manuel Neuer</a>
-      </nav>
-    </header>
-    <section>
-      <h4>Player Outlines</h4>
-      <ul>
-        <li class="name">Lionel Messi</li>
-          <ul>
-            <li>Birth Year: 1987</li>
-            <li>Height: 5'7"</li>
-            <li>Preferred Foot: Left</li>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Alexander Pellas | Web Developer</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--  Flex Template http://www.templatemo.com/tm-406-flex -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://use.fontawesome.com/207339b977.js"></script>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/templatemo_misc.css">
+  <link rel="stylesheet" href="css/templatemo_style.css">
+
+  <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+</head>
+
+<body>
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<div class="site-main" id="sTop">
+  <div class="site-header">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <ul class="social-icons">
+            <li><a href="https://github.com/alexpadraic" class="fa fa-github"></a></li>
+            <li><a href="https://www.linkedin.com/in/alexander-pellas" class="fa fa-linkedin"></a></li>
+            <li><a href="https://medium.com/@alexpadraic" class="fa fa-medium"></a></li>
+            <li><a href="https://twitter.com/alexpadraic" class="fa fa-twitter"></a></li>
+            <li><a href="https://www.facebook.com/alexpellas" class="fa fa-facebook"></a></li>
           </ul>
-        <li class="name">Cristiano Ronaldo</li>
-          <ul>
-            <li>Birth Year: 1985</li>
-            <li>Height: 6'1"</li>
-            <li>Preferred Foot: Right</li>
-          </ul>
-        <li class="name">Manuel Neuer</li>
-          <ul>
-            <li>Birth Year: 1986</li>
-            <li>Height: 6'4"</li>
-            <li>Preferred Foot: Right</li>
-          </ul>
-      </ul>
-    </section>
-    <article>
-      <h4>Player Ratings</h4>
-      <p>In the table below, the current Soccer Gods of the world are stacked-up against each other using FIFA 2016's Overall Player Rating.</p>
-      <table border="1" width="100%">
-        <tr>
-          <th>Photo</th>
-          <th>Player Name</th>
-          <th>FIFA Player Rating</th>
-        </tr>
-        <tr>
-          <td><img alt="Lionel Messi" title="Credit: FutHead.com" src="http://futhead.cursecdn.com/static/img/14/players/158023.png" alt="Lionel Messi" height="100" width="100"></td>
-          <td>Lionel Messi</td>
-          <td>94</td>
-        </tr>
-        <tr>
-          <td><img alt="Cristiano Ronaldo" title="Credit: FutHead.com" src="http://futhead.cursecdn.com/static/img/14/players/20801.png" alt="Cristiano Ronaldo" height="100" width="100"></td>
-          <td>Cristiano Ronaldo</td>
-          <td>93</td>
-        </tr>
-        <tr>
-          <td><img alt="Manuel Neuer" title="Credit: FutHead.com" src="http://futhead.cursecdn.com/static/img/15/players/167495.png" alt="Manuel Neuer" height="100" width="100"></td>
-          <td>Manuel Neuer</td>
-          <td>90</td>
-        </tr>
-      </table>
-    </article>
-    <footer id="similar-site">
-      <h4>Similar Site</h4>
-      <p><a href="http://thebiglead.com/2015/08/27/top-10-soccer-players-in-the-world-start-of-the-2015-16-season-edition/">This site</a> provides a list of the Top 10 players at the beginning of the 2015/16 season. Since this is a news website/blog, they have many links to other articles on their site; as a result, it uses a lot of JavaScript and CSS to add linked elements from other parts of the website's repository to the page [I think]. The body spans from lines 323 to 2287, but the visible text makes up a very small portion of the code [lines 662 to 682] relative to the amount of space it takes up on the rendered page.</p>
-    </footer>
-  </body>
+        </div> <!-- /.col-md-12 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+
+    <div class="main-header">
+      <div class="container">
+        <div id="menu-wrapper">
+          <div class="row">
+            <div class="logo-wrapper col-md-2 col-sm-2">
+              <h1>
+                <a href="#">Alexander</a>
+              </h1>
+            </div> <!-- /.logo-wrapper -->
+            <div class="col-md-10 col-sm-10 main-menu text-right">
+              <div class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></div>
+              <ul class="menu-first">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div> <!-- /.main-menu -->
+          </div> <!-- /.row -->
+        </div> <!-- /#menu-wrapper -->
+      </div> <!-- /.container -->
+    </div> <!-- /.main-header -->
+  </div> <!-- /.site-header -->
+
+  <div class="site-slider">
+    <div class="slider">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="overlay"></div>
+            <img src="images/sf-downtown (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Github</h2>
+              <p><a href="https://github.com/alexpadraic" class="slider-btn fa fa-github"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/ny-blue (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>LinkedIn</h2>
+              <p><a href="https://www.linkedin.com/in/alexander-pellas" class="slider-btn fa fa-linkedin"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/sf-ferry (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Medium</h2>
+              <p><a href="https://medium.com/@alexpadraic" class="slider-btn fa fa-medium"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/ny-empire (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Twitter</h2>
+              <p><a href="https://twitter.com/alexpadraic" class="slider-btn fa fa-twitter"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/sf-gg (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Facebook</h2>
+              <p><a href="https://www.facebook.com/alexpellas" class="slider-btn fa fa-facebook"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/ny-mid (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Github</h2>
+              <p><a href="https://github.com/alexpadraic" class="slider-btn fa fa-github"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/sf-karl (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>LinkedIn</h2>
+              <p><a href="https://www.linkedin.com/in/alexander-pellas" class="slider-btn fa fa-linkedin"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/ny-midtown (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Medium</h2>
+              <p><a href="https://medium.com/@alexpadraic" class="slider-btn fa fa-medium"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/sf-transam (1).jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Twitter</h2>
+              <p><a href="https://twitter.com/alexpadraic" class="slider-btn fa fa-twitter"></a></p>
+            </div>
+          </li>
+          <li>
+            <div class="overlay"></div>
+            <img src="images/ny-street.jpg" alt="">
+            <div class="slider-caption visible-md visible-lg">
+              <h2>Facebook</h2>
+              <p><a href="https://www.facebook.com/alexpellas" class="slider-btn fa fa-facebook"></a></p>
+            </div>
+          </li>
+        </ul>
+      </div> <!-- /.flexslider -->
+    </div> <!-- /.slider -->
+  </div> <!-- /.site-slider -->
+</div> <!-- /.site-main -->
+
+
+<div class="content-section" id="skills">
+  <div class="container">
+
+    <div class="row">
+      <div class="heading-section col-md-12 text-center">
+        <h2>Skills</h2>
+        <p>Back-end Analyst turned Full-Stack Web Developer</p>
+      </div> <!-- /.heading-section -->
+    </div> <!-- /.row -->
+
+    <div class="row">
+
+      <div class="col-md-3 col-sm-6">
+        <div class="service-item" id="service-1">
+          <div class="service-icon">
+            <i class="fa fa-file-code-o"></i>
+          </div> <!-- /.service-icon -->
+          <div class="service-content">
+            <div class="inner-service">
+              <h3>Front-End</h3>
+              <p>[desc]</p>
+            </div>
+          </div> <!-- /.service-content -->
+        </div> <!-- /#service-1 -->
+      </div> <!-- /.col-md-3 -->
+
+      <div class="col-md-3 col-sm-6">
+        <div class="service-item" id="service-2">
+          <div class="service-icon">
+            <i class="fa fa-database"></i>
+          </div> <!-- /.service-icon -->
+          <div class="service-content">
+            <div class="inner-service">
+              <h3>Back-End</h3>
+              <p>[desc]</p>
+            </div>
+          </div> <!-- /.service-content -->
+        </div> <!-- /#service-1 -->
+      </div> <!-- /.col-md-3 -->
+
+      <div class="col-md-3 col-sm-6">
+        <div class="service-item" id="service-3">
+          <div class="service-icon">
+            <i class="fa fa-cogs"></i>
+          </div> <!-- /.service-icon -->
+          <div class="service-content">
+            <div class="inner-service">
+              <h3>Machine Learning</h3>
+              <p>[desc]</p>
+            </div>
+          </div> <!-- /.service-content -->
+        </div> <!-- /#service-1 -->
+      </div> <!-- /.col-md-3 -->
+
+      <div class="col-md-3 col-sm-6">
+        <div class="service-item" id="service-4">
+          <div class="service-icon">
+            <i class="fa sim_card"></i>
+          </div> <!-- /.service-icon -->
+          <div class="service-content">
+            <div class="inner-service">
+              <h3>Hardware</h3>
+              <p>[desc]</p>
+            </div>
+          </div> <!-- /.service-content -->
+        </div> <!-- /#service-1 -->
+      </div> <!-- /.col-md-3 -->
+    </div> <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="skills-heading">
+          <h3 class="skills-title">Design Skills</h3>
+          <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div> <!-- /.col-md-12 -->
+    </div> <!-- /.row -->
+
+    <div class="row">
+      <div class="col-md-8 col-sm-6">
+        <p>I am a thoroughly curious and driven young professional with a passion for problem-solving, social justice, the environment, and tech.<br><br>
+          Over my professional career, I have developed and sharpened a unique skill set of data analysis, mapping, web development, and financial accounting - though, the pace at which I was able to pick these up in a professional setting could be my most valuable asset. I am eager to leverage these skills for an exciting project to build both purpose and pleasure into my career.<br><br>
+          I am a natural leader who enjoys working in teams with distributed responsibility structures, democratic decision-making, and short feedback loops. I strive to excel in every venture, and I feel I bring the right mix of drive and composure that will be valuable in any work environment. If you or your company are looking to expand your development team and feel I could be a valuable addition, don’t hesitate to reach out. My email is alex.padraic@gmail.com.<!-- spacing for mobile viewing --><br><br>
+        </p>
+      </div> <!-- /.col-md-8 -->
+
+      <div class="col-md-4 col-sm-6">
+        <ul class="progess-bars">
+          <li>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Photoshop 90%</div>
+            </div>
+          </li>
+          <li>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">HTML CSS 80%</div>
+            </div>
+          </li>
+          <li>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Development 70%</div>
+            </div>
+          </li>
+          <li>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">Marketing 80%</div>
+            </div>
+          </li>
+        </ul>
+      </div> <!-- /.col-md-4 -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div> <!-- /#services -->
+
+
+
+<div class="content-section" id="portfolio">
+  <div class="container">
+
+    <div class="row">
+      <div class="heading-section col-md-12 text-center">
+        <h2>Portfolio</h2>
+        <p>Group and Solo Projects</p>
+      </div> <!-- /.heading-section -->
+    </div> <!-- /.row -->
+
+    <div class="row">
+
+      <div class="portfolio-item col-md-3 col-sm-6">
+        <div class="portfolio-thumb">
+          <img src="images/gallery/p1.jpg" alt="">
+          <div class="portfolio-overlay">
+            <h3>Auto-Trash | CERBERUS</h3>
+            <p>[Insert ReadMe]</p>
+            <a href="images/gallery/p1.jpg" data-rel="lightbox" class="expand">
+              <i class="fa fa-search"></i>
+            </a>
+          </div> <!-- /.portfolio-overlay -->
+        </div> <!-- /.portfolio-thumb -->
+      </div> <!-- /.portfolio-item -->
+
+      <div class="portfolio-item col-md-3 col-sm-6">
+        <div class="portfolio-thumb">
+          <img src="images/gallery/p2.jpg" alt="">
+          <div class="portfolio-overlay">
+            <h3>Patrol</h3>
+            <p>[Insert ReadMe]</p>
+            <a href="images/gallery/p2.jpg" data-rel="lightbox" class="expand">
+              <i class="fa fa-search"></i>
+            </a>
+          </div> <!-- /.portfolio-overlay -->
+        </div> <!-- /.portfolio-thumb -->
+      </div> <!-- /.portfolio-item -->
+
+      <div class="portfolio-item col-md-3 col-sm-6">
+        <div class="portfolio-thumb">
+          <img src="images/gallery/p7.jpg" alt="">
+          <div class="portfolio-overlay">
+            <h3>Web FlashCards</h3>
+            <p>[Insert ReadMe]</p>
+            <a href="images/gallery/p7.jpg" data-rel="lightbox" class="expand">
+              <i class="fa fa-search"></i>
+            </a>
+          </div> <!-- /.portfolio-overlay -->
+        </div> <!-- /.portfolio-thumb -->
+      </div> <!-- /.portfolio-item -->
+
+      <div class="portfolio-item col-md-3 col-sm-6">
+        <div class="portfolio-thumb">
+          <img src="images/gallery/p8.jpg" alt="">
+          <div class="portfolio-overlay">
+            <h3>ChowSource</h3>
+            <p>[Insert ReadMe]</p>
+            <a href="images/gallery/p8.jpg" data-rel="lightbox" class="expand">
+              <i class="fa fa-search"></i>
+            </a>
+          </div> <!-- /.portfolio-overlay -->
+        </div> <!-- /.portfolio-thumb -->
+      </div> <!-- /.portfolio-item -->
+
+    </div> <!-- /.row -->
+
+  </div> <!-- /.container -->
+</div> <!-- /#portfolio -->
+
+
+
+
+<div class="content-section" id="our-team">
+  <div class="container">
+
+    <div class="row">
+      <div class="heading-section col-md-12 text-center">
+        <h2>Team</h2>
+        <p>Our people are very united for your success</p>
+      </div> <!-- /.heading-section -->
+    </div> <!-- /.row -->
+
+    <div class="row">
+      <div class="team-member col-md-4 col-sm-4">
+      </div> <!-- /.team-member -->
+      <div class="team-member col-md-4 col-sm-4">
+        <div class="member-thumb">
+          <img src="images/member1.jpg" alt="">
+          <div class="team-overlay">
+            <h3>Tracy</h3>
+            <span>Designer</span>
+            <ul class="social">
+              <li><a href="#" class="fa fa-facebook"></a></li>
+              <li><a href="#" class="fa fa-twitter"></a></li>
+              <li><a href="#" class="fa fa-linkedin"></a></li>
+            </ul>
+          </div> <!-- /.team-overlay -->
+        </div> <!-- /.member-thumb -->
+      </div> <!-- /.team-member -->
+      <div class="team-member col-md-4 col-sm-4">
+      </div> <!-- /.team-member -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div> <!-- /#our-team -->
+
+<div id="footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-8 col-xs-12 text-left">
+        <span>Copyright &copy; 2014 Company Name</span>
+      </div> <!-- /.text-center -->
+
+      <div class="col-md-4 hidden-xs text-right">
+        <a href="#top" id="go-top">Back to top</a>
+      </div> <!-- /.text-center -->
+
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div> <!-- /#footer -->
+
+<script src="js/vendor/jquery-1.11.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+<script src="js/bootstrap.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Map -->
+<!-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/vendor/jquery.gmap3.min.js"></script> -->
+
+<!-- Google Map Init-->
+<script type="text/javascript">
+// jQuery(function($){
+//   $('#map_canvas').gmap3({
+//     marker:{
+//       address: '37.769725, -122.462154'
+//     },
+//     map:{
+//       options:{
+//         zoom: 15,
+//         scrollwheel: false,
+//         streetViewControl : true
+//       }
+//     }
+//   });
+
+/* Simulate hover on iPad
+* http://stackoverflow.com/questions/2851663/how-do-i-simulate-a-hover-with-a-touch-in-touch-enabled-browsers
+--------------------------------------------------------------------------------------------------------------*/
+$('body').bind('touchstart', function() {});
+});
+</script>
+<!-- templatemo 406 flex -->
+</body>
 </html>
