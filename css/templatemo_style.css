@@ -165,7 +165,7 @@ body {
 }
 
 a {
-  color: #025497;
+  color: #001d33;
   text-decoration: none;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
@@ -245,12 +245,16 @@ hr {
   width: 36px;
   height: 36px;
   background-color: white;
-  color: #444444;
+  opacity: 0.7;
+  color: #001d33;
   text-align: center;
   line-height: 36px;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
+}
+.site-header ul.social-icons li a:hover {
+  opacity: 1;
 }
 
 .main-header {
@@ -292,7 +296,7 @@ hr {
   padding-left: 130px;
   line-height: 100px;
   text-transform: uppercase;
-  color: #025497;
+  color: #001d33;
   font-size: 32px;
   font-weight: 700;
 }
@@ -312,8 +316,8 @@ hr {
   padding-top: 37px;
 }
 .main-menu ul li.active a {
-  border-top: 3px solid #025497;
-  color: #025497;
+  border-top: 3px solid #001d33;
+  color: #001d33;
 }
 
 .toggle-menu {
@@ -325,7 +329,7 @@ hr {
   text-align: center;
   line-height: 36px;
   font-size: 14px;
-  background: #025497;
+  background: #001d33;
   display: inline-block;
   color: white;
   cursor:pointer;
@@ -345,7 +349,7 @@ hr {
   font-size: 14px;
 }
 .menu-responsive ul li.active a {
-  color: #025497;
+  color: #001d33;
 }*/
 
 .flexslider {
@@ -388,12 +392,16 @@ hr {
   display: block;
 }
 .flexslider .slider-caption a.slider-btn {
-  color: white;
-  background-color: #025497;
+  color: #001d33;
+  background-color: white;
+  opacity: 0.5;
   padding: 12px 20px;
   border-radius: 4px;
   text-transform: uppercase;
   font-weight: 700;
+}
+.flexslider .slider-caption a.slider-btn:hover {
+  opacity: 1;
 }
 @media screen and (min-width: 989px) {
   .flexslider .slider-caption {
@@ -506,6 +514,12 @@ hr {
   text-transform: uppercase;
   margin-top: 10px;
 }
+.heading-section a {
+  color: #ffffff;
+}
+.heading-section a:hover {
+  color: #025497;
+}
 
 .small-text {
   color: #aaaaaa;
@@ -560,7 +574,7 @@ hr {
 .service-item .service-content h3 {
   font-size: 18px;
   text-transform: uppercase;
-  color: white;
+  color: #001d33;
   display: inline-block;
   padding-bottom: 10px;
   border-bottom: 1px solid white;
@@ -573,6 +587,8 @@ hr {
 .service-item:hover .service-content {
   opacity: 1;
   visibility: visible;
+  background-color: #ffffff;
+  color: #001d33;
 }
 
 #service-1 {
@@ -602,7 +618,7 @@ hr {
   width: 100%;
 }
 .portfolio-item .portfolio-thumb .portfolio-overlay {
-  background-color: #025497;
+  background-color: #001d33;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -668,7 +684,7 @@ hr {
   text-align: center;
   top: 0;
   left: 0;
-  background-color: #025497;
+  background-color: #001d33;
   color: white;
   opacity: 0;
   visibility: hidden;
@@ -703,13 +719,13 @@ hr {
   height: 36px;
   background-color: white;
   line-height: 40px;
-  color: #025497;
+  color: #001d33;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
 }
 .team-member .member-thumb:hover .team-overlay {
-  opacity: 1;
+  opacity: 0.85;
   visibility: visible;
 }
 
@@ -718,13 +734,17 @@ hr {
   margin-bottom: 50px;
 }
 .skills-heading h3.skills-title {
-  font-style: italic;
+  font-style: bold;
   font-size: 18px;
   text-transform: uppercase;
-  color: #5e5e5e;
+  color: #ffffff;
 }
 .skills-heading .small-text {
   font-style: italic;
+}
+
+.summary-text {
+  color:#ffffff;
 }
 
 .progress {
@@ -771,13 +791,13 @@ hr {
 .contact-form .mainBtn {
   margin-top: 15px;
   color: white;
-  background-color: #025497;
+  background-color: #001d33;
   text-transform: uppercase;
   border: 0;
 }
 
 #go-top {
-  background-color: #025497;
+  background-color: #001d33;
   color: white;
   padding: 15px 40px;
   text-transform: uppercase;
@@ -794,3 +814,10 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
    	font-style: normal;
 }
 */
+
+#skills p a {
+  color:silver;
+}
+#skills p a:hover {
+  color: #025497;
+}
