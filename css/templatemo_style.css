@@ -750,6 +750,12 @@ hr {
 .summary-text {
   color:#ffffff;
 }
+.summary-text a {
+  color:silver;
+}
+.summary-text a:hover {
+  color:white;
+}
 
 .progress {
   height: 34px;
