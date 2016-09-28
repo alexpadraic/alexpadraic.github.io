@@ -573,16 +573,16 @@ hr {
   transition: all 200ms ease-in-out;
 }
 .service-item .service-content .inner-service {
-  padding: 20px;
+  padding: 5px;
 }
 .service-item .service-content h3 {
   font-size: 18px;
   text-transform: uppercase;
   color: #001d33;
   display: inline-block;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   border-bottom: 1px solid #025497;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .service-item:hover .service-icon {
   opacity: 0;
